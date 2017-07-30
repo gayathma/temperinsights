@@ -27,6 +27,7 @@ class Insight extends Model
         return DB::table('insights')
                 ->distinct('week_no')
                 ->select(DB::raw('WEEK(created_at) as week_no'))
+                ->where('user_id', '!=', 0)
                 ->get();
     }
 
