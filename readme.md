@@ -22,7 +22,7 @@
 * create database `temperinsights` using mysql 
 * update `DB_DATABASE, DB_USERNAME, DB_PASSWORD` values in .env file
 * type `php artisan migrate`
-* import export.csv file data `insights` table of the database
+* import <a href="export.csv">export.csv</a> file data `insights` table of the database
 * type `php artisan serve` with the given url you can access the application in the browser
 
 ### Features ###
